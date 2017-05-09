@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiaoyuliang.foodie.LoginFragment">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginback"
+        android:id="@+id/backend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome To foodie !"
+        android:textColor="#f37c0202"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:paddingBottom="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/textView6" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:id="@+id/imageView8"
+        android:src="@drawable/app_logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/progress"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

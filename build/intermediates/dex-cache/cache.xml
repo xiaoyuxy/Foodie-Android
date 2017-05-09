@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_d0cffda3c81238a66439627b25553802a07ea6dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_56eebe74e4a19fb79f42cbbb65e7f95dfa4f2445/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.2.0_e0dafd9698766974cf97dc2397f55dbf5dc888d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_b46de49e695b1258110daa3368612806d6daefd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_5e7aaf51cab22c49a7dc94e9dd6145b4fd920309/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_c4db173e30518a769e9a34d63a9ff52f6533bb3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_408197a0ecab3d6c1b23a5c99d57226f7ac905a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_540c7fbef62a5b4cee3004b698d97eea54d87b55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.2.0_1efa590fabf9a12c282ab484d07234fb0d6733ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2926f415dd07367b2c1e6b497beb6d0e792a613d">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_21b6dd01c92cdc8bd4080e1925ae4cba56ef705c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.2.0/a56f28d5b7fab623c6c1d2afa08dd496d873ac21/logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.2.0_b33625f7c4e72eedf55fd3ce41ae7e0129da3bc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_b941a89a6b0cd036926673b9491a2c49aaa017cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_6ce9483e7a854e60a01a12a711d98b28655c32bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_e13f677869a619c16faa8e0afd9309d98f5fdefc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0-beta4/739e00dea1f0ac04fdb9b6160d667e23cc50a791/retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.0-beta4_30dcfd259eeedb668adc25505b419f0440c9980b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5316376e378d9842670a72a6e67983b5d5f51a49">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c8f416f58072309914e50f4b41b28e71f4daa261/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-25.0.0_fb2b296e978c19e78e5599d0badc2b3438e9853d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.22.0_697897c39228b85541edd435bfbc944fe79d34ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_7aaa676d6469b5947a65f2f41324945e1dadb73d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_717af9c4585a492016c115b2f9e7a9da3fd5d456/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_2066759ea6964645196d693e56ca99a1cac1e2c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_50770f1e24fbcc33d88edb28b47a85e09f0db772/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.paolorotolo-appintro-4.1.0_9b5bf7a4b779368ad34b056c496d1a8d26321e66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3a910f808135a8837b60a3b9eebb6510dcc7707">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_12c646aa24bbfbe8fa2bb277e2bff5f6bb18cd58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_df55cb68bb9ffa840077dbe51c1d7529f05b77be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_ea14a3f463c3251a615f1f65f0e4e79be26685fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_664ec7d9b4c5e4ecf52e70d6abe152839165fb6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_619a4bc7958c667375a5cf24e9721dfe2fd3dd52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/2.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b034fc34b6f13e95ccaaff6aa76819c34c6bce41">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.roughike-bottom-bar-2.1.1_e6bb64586c16e2c97d9bdd7a0ccfa4d658473fe3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/2.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b034fc34b6f13e95ccaaff6aa76819c34c6bce41">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.roughike-bottom-bar-2.1.1_d1d6b28f2c5ae102c033a65c769a18eae58262e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.22.0_f8ef42d1e42b6149900774049c234a01810bf397/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.2.0_a918430a7667e3e4b2f887cfac51040652393722/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_efef1ad65ea7c3599289affa555d7a3771a8f2eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-25.0.0_a57b64f1480436d0faf2c997ab201e2ca039fedf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_721ff7f6eac29cf979ff28fe24b61836d0ebb0a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_851188aa3efe298a6d7d49981b43148cea79194c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_578734f5441ff0d5ab2dec3d4eeb780ec29d1953/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_878a2054dda63281de0ae334322a89e37843c219/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta4/de5935a367ba5e343e9df786ac8fc0c7d52b5f0c/converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.0-beta4_6d0aacb00dc6825035aa4cb494354a706ffd6344/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_ec567239c0c9a87b37f8e9fbe1737347f59bd6d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d955e34b1f1582a3521e6a9c54fc94088bb44457">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb4fb30ac6cdd92b3a3e22e26c2e7891e0ced9c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_9e912e814339d8f30dfcdeb3d1b9a00a431c1174/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_4fc735930ea5a86d70f8dd0ea5370f20f0c267bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_8f2c5241d43c8c94b1cdcad3141ee1692313c618/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.2.0_0e6d4ae5738dfba9bef6266e366106b7e3e86da9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_cf844c5821dbac754693a07b7c1c11cd121f4270/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.paolorotolo-appintro-4.1.0_ec464518abe97fc6468af1ee17d945765d417a46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/xiaoyuliang/courses/277/Foodie/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_9df0b02de2237992b3751ba523223b0e54e32546/classes.dex" />
+    </item>
+
+</items>

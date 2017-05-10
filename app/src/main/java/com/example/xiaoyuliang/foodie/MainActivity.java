@@ -83,31 +83,24 @@ public class MainActivity extends AppCompatActivity {
     public ArrayList<TrendingItems> getList(){
         ArrayList<TrendingItems> items=new ArrayList<>();
 
-        String[] urls={"http://imgur.com/zH7VzFv.jpg",
-                "http://i.imgur.com/5AS3kAv.jpg",
-                "http://imgur.com/WOBN4rH.jpg",
-                "http://imgur.com/r48Lc6r.jpg",
-                "http://imgur.com/ui5Wdhp.jpg",
-                "http://imgur.com/NrRpn8b.jpg",
-                "http://imgur.com/GAOY5RD.jpg",
-                "http://i.imgur.com/4PVTWgY.jpg"};
+        String[] urls={"http://imgur.com/6vIDmHK.jpg",
+                "http://imgur.com/04bVzUV.jpg",
+                "http://imgur.com/8PMiBQP.jpg",
+                "http://imgur.com/pjP4kVD.jpg",
+                "http://imgur.com/v0Qel68.jpg",
+                };
 
-        String[] titles={"Buy 1 Get 1 Free",
-                "50% OFF for First Time Customer",
-                "Flat 20% Off On Orders Above Rs.400",
-                "Flat Rs.75 Off On Order Of Rs.299",
-                "Free Burger On Order Above Rs.319",
-                "Free Meal On All Orders Above Rs.369",
-                "Overloaded Big Pizza Starting At Just Rs.219",
-                "Flat Rs.101 Off On Rs.400 & Above"};
-        String[] restaurants={"PIZZARO",
-                "DESI TADKA",
-                "KFC",
-                "CHOPRA",
-                "SURAJ",
-                "Mcdonalds",
-                "PIZZAHUT",
-                "DOMINOES"};
+        String[] titles={"Korea BBQ: 20% off On Order Above $ 39",
+                "Panda Express:50% OFF for First Time Customer",
+                "Free Meal On All Orders Above $29",
+                "Hot pot: Free Drinking",
+                "Buy One get One Free"};
+        String[] restaurants={"Korea BBQ",
+                "Chinese Food",
+                "Burger",
+                "Hot pot",
+                "Pizza"
+               };
 
         for(int i=0;i<restaurants.length;i++){
             TrendingItems item=new TrendingItems();

@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="40d54fee9740a56e2cbad93762a21cf4766580e0">
+        sha1="e0797ab5d818efe7a63945e085079dabd62cca85">
         <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_21b6dd01c92cdc8bd4080e1925ae4cba56ef705c/classes.dex" />
     </item>
     <item
@@ -367,7 +367,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="742705bf1aeecb04fec6f2fce52442fc2ec73a73">
+        sha1="840a3f67fba9ac5260ee2bf282ba82bb57e1d7c9">
         <dex dex="/Users/xiaoyuliang/courses/277/Foodie-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb4fb30ac6cdd92b3a3e22e26c2e7891e0ced9c3/classes.dex" />
     </item>
     <item

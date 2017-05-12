@@ -1,121 +1,83 @@
 package com.example.xiaoyuliang.foodie;
 
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.widget.ImageView;
+import android.webkit.WebView;
+import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.xiaoyuliang.foodie.fragment.MenuFragment;
-import com.example.xiaoyuliang.foodie.fragment.MenuFragment2;
-import com.example.xiaoyuliang.foodie.fragment.MenuFragment3;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.util.ArrayList;
 
 /**
  * Created by xiaoyuliang on 5/8/17.
  */
-public class SingleRestaurant extends AppCompatActivity implements MenuFragment2.imageUrlListener{
-
-    private ImageView img;
-    private ViewPager pager;
-    private TabLayout tab;
-    private int id;
-
-    @Override
+public class SingleRestaurant extends AppCompatActivity {
+    public String name, image, distance, discription;
+    public float rank;
+    public Context context;
+    private WebView mWebView;
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_single_restaurant);
-        Intent i=getIntent();
-        if(i!=null){
-            if(i.hasExtra(RestaurantsList.RESTAURANT_ID)){
-                id=i.getIntExtra(RestaurantsList.RESTAURANT_ID,-1);
+        String title = this.getIntent().getExtras().getString("title");
+        String url = this.getIntent().getExtras().getString("url");
+        setTitle(title);
+        TextView rest_name = (TextView) findViewById(R.id.rest_name);
+
+        mWebView = (WebView) findViewById(com.example.xiaoyuliang.foodie.R.id.detail_web_view);
+        mWebView.loadUrl(url);
+    }
+    public static ArrayList<SingleRestaurant> getRecipesFromFile(String filename, Context context) {
+        final ArrayList<SingleRestaurant> resList = new ArrayList<>();
+
+        try {
+            // Load data
+            String jsonString = loadJsonFromAsset("restaurant.json", context);
+            JSONObject json = new JSONObject(jsonString);
+            JSONArray rest = json.getJSONArray("restaurants");
+
+            // Get Recipe objects from data
+            for(int i = 0; i < rest.length(); i++){
+                SingleRestaurant res = new SingleRestaurant();
+
+                res.name = rest.getJSONObject(i).getString("name");
+                res.image = rest.getJSONObject(i).getString("image");
+                res.distance = rest.getJSONObject(i).getString("Distance");
+                res.discription = rest.getJSONObject(i).getString("Discription");
+                res.rank = (float)rest.getJSONObject(i).getDouble("Rank");
+
+                resList.add(res);
             }
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
 
-        tab=(TabLayout)findViewById(R.id.tabs);
-        pager=(ViewPager)findViewById(R.id.viewpager);
-        pager.setOffscreenPageLimit(3);
-        img=(ImageView)findViewById(R.id.rest_image);
-
-        MyPagerAdapter adapter=new MyPagerAdapter(getSupportFragmentManager());
-        pager.setAdapter(adapter);
-
-        pager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                Log.v("tab","selected");
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
-
-        tab.setupWithViewPager(pager);
-
+        return resList;
     }
 
-    @Override
-    public void setImageUrl(String url) {
-        Glide.with(this).load(url).asBitmap().diskCacheStrategy(DiskCacheStrategy.ALL).into(img);
+    private static String loadJsonFromAsset(String filename, Context context) {
+        String json = null;
+
+        try {
+            InputStream is = context.getAssets().open(filename);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        }
+        catch (java.io.IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+
+        return json;
     }
-
-    private class MyPagerAdapter extends FragmentStatePagerAdapter {
-
-        @Override
-        public CharSequence getPageTitle(int position) {
-            String str="Tab";
-            switch (position){
-                case 0: str="Menu";
-                    break;
-                case 1: str="About";
-                    break;
-                case 2: str="Review";
-                    break;
-            }
-
-            return str;
-        }
-
-        public MyPagerAdapter(FragmentManager fm) {
-            super(fm);
-        }
-
-        @Override
-        public Fragment getItem(int position) {
-
-            Fragment fragment=null;
-
-            switch (position){
-                case 0: fragment= MenuFragment.getInstance(SingleRestaurant.this,id);
-                    break;
-                case 1: fragment=MenuFragment2.getInstance(SingleRestaurant.this,id);
-                    break;
-                case 2: fragment= MenuFragment3.getInstance(SingleRestaurant.this);
-                    break;
-                default:fragment=MenuFragment.getInstance(SingleRestaurant.this,-1);
-            }
-
-            return fragment;
-        }
-
-        @Override
-        public int getCount() {
-            return 3;
-        }
-    }
-
 }
 

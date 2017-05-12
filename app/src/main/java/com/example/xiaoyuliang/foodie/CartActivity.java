@@ -2,7 +2,6 @@ package com.example.xiaoyuliang.foodie;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -39,11 +38,11 @@ public class CartActivity extends AppCompatActivity {
 
         Log.v("cart", "activity");
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        LinearLayoutManager manager = new LinearLayoutManager(CartActivity.this);
-        recyclerView.setLayoutManager(manager);
-        adapter = new CartAdapter(CartActivity.this);
-        recyclerView.setAdapter(adapter);
+//        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+//        LinearLayoutManager manager = new LinearLayoutManager(CartActivity.this);
+//        recyclerView.setLayoutManager(manager);
+//        adapter = new CartAdapter(CartActivity.this);
+//        recyclerView.setAdapter(adapter);
         bar = (ProgressBar) findViewById(R.id.progress);
 
         bar.setVisibility(View.GONE);

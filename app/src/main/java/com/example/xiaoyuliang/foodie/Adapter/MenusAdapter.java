@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -57,7 +56,7 @@ public class MenusAdapter extends RecyclerView.Adapter<MenusAdapter.ViewHolder> 
                 distance = distance + "away";
 
                 holder.distanceRes.setText(distance);
-                holder.ratingRes.setRating((float) arrayList.get(position).getRating());
+//                holder.ratingRes.setRating((float) arrayList.get(position).getRating());
             }
 
             Glide.with(context).load(arrayList.get(position).getPhoto()).asBitmap().
@@ -74,14 +73,14 @@ public class MenusAdapter extends RecyclerView.Adapter<MenusAdapter.ViewHolder> 
     public static class ViewHolder extends RecyclerView.ViewHolder
     {
         private final TextView nameRes,distanceRes;
-        private final RatingBar ratingRes;
+//        private final RatingBar ratingRes;
         private ImageView imageRes;
 
         public ViewHolder(View v){
             super(v);
             this.imageRes = (ImageView)v.findViewById(R.id.imageRes);
             this.nameRes = (TextView)v.findViewById(R.id.nameRes);
-            this.ratingRes = (RatingBar)v.findViewById(R.id.ratingRes);
+//            this.ratingRes = (RatingBar)v.findViewById(R.id.ratingRes);
             this.distanceRes = (TextView)v.findViewById(R.id.distanceRes);
         }
     }

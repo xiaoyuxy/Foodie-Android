@@ -1,0 +1,41 @@
+{
+  "restaurants": [
+    {
+      "name": "Panda Express",
+      "image" : "http://imgur.com/04bVzUV.jpg",
+      "Distance":"4 mi",
+      "Discription" : "\"Panda Express is a Chinese food.\"",
+      "Rank":3.5
+    },
+
+    {
+      "name": "Korea BBQ",
+      "image" : "http://imgur.com/6vIDmHK.jpg",
+      "Distance":"8 mi",
+      "Discription" : "\"I like the Korea beef here...\"",
+      "Rank":3
+    },
+    {
+      "name": "Red Robin",
+      "image" : "http://imgur.com/8PMiBQP.jpg",
+      "Distance":"5 mi",
+      "Discription" : "\"Best burger I ever eat! \"",
+      "Rank":4
+    },
+
+    {
+      "name": "Hot pot",
+      "image" : "http://imgur.com/pjP4kVD.jpg",
+      "Distance":"8 mi",
+      "Discription" : "\"Spicy, Hot, Delicious...\"",
+      "Rank":5
+    },
+    {
+      "name": "Pizza",
+      "image" : "http://imgur.com/v0Qel68.jpg",
+      "Distance":"8 mi",
+      "Discription" : "\"My favourite pizza!!!\"",
+      "Rank":2
+    }  
+  ]
+}

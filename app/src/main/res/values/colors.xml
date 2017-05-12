@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name = "Suchi">#6495ed</color>color>
+    <color name = "Mexico">#ffd700</color>color>
+    <color name = "Chinese">#ffb6c1</color>color>
+    <color name = "India">#ffa500</color>color>
+    <color name = "Greece">#afeeee</color>color>
+    <color name = "Englian">#dda0dd</color>color>
+    <color name = "Italy">#66cdaa</color>color>
+    <color name = "El_Salvador">#fa8072</color>color>
 </resources>

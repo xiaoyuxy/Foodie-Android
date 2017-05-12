@@ -33,26 +33,25 @@
          android:textColor="@android:color/black"
          />
 
-      <android.support.v7.widget.AppCompatRatingBar
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_below="@+id/nameRes"
-          android:layout_alignParentLeft="true"
-          style="?android:attr/ratingBarStyleIndicator"
-          android:rating="5"
-          android:numStars="5"
-          android:stepSize="0.5"
-          android:layout_marginRight="2dp"
-          android:id="@+id/ratingRes"/>
+        <android.support.v7.widget.AppCompatRatingBar
+            android:id="@+id/ratingRes"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/nameRes"
+            android:layout_marginRight="2dp"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="0.5" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/ratingRes"
             android:id="@+id/distanceRes"
             android:text="10 KM away"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="100dp"
             />
 
     </RelativeLayout>

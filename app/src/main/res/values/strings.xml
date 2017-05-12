@@ -9,5 +9,6 @@
     <string name="title_activity_search">SearchActivity</string>
     <string name="title_activity_appintro">Cover</string>
     <string name="aboutus">Foodie is an appliction that</string>
+    <string name="thumbnail">thumbnail</string>
 
 </resources>

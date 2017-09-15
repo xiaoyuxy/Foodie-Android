@@ -23,4 +23,7 @@ Android stdio
 - Backend: Facebook api, Yelp api, Firebase
 
 ## screenshots:
+<img width="884" alt="screen shot 2017-09-15 at 12 07 37 am" src="https://user-images.githubusercontent.com/17173579/30470517-eb7bf436-99a9-11e7-8856-c1567fd06532.png">
 
+## video link:
+https://www.youtube.com/watch?v=1LusvMjIvnA
